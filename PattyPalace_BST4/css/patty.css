@@ -1,11 +1,11 @@
 body {
-    
+
     min-height: 2000px;
 }
 
 
 
-/*------------------------------------------------------Main Text/font from  google 
+/*------------------------------------------------------Main Text/font from  google
 
 font-family: 'Lobster', cursive;
 font-family: 'Courgette', cursive;
@@ -33,7 +33,7 @@ font-family: 'Roboto Condensed', sans-serif;
 --------------------------------------------*/
 
 .nav_height_style {
-    
+
    padding-top: 2rem;
     padding-bottom: 2rem;
 
@@ -42,31 +42,32 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .navbar-toggler {
-    
+
     border: 0px;
 }
 
 
 .hero_style_bg {
-    
+
     background: #5C258D;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: inherit;
     width: 100%;
-  
+    margin-bottom: auto;
+
 }
 
 .hero_mom_style {
-    
+
     width: 200px;
     height: 200px;
     box-shadow: transparent 4px 4px 4px #d2d2d2;
-    
+
 }
 
 .border-white {
-    
+
     border-width: 0.3rem !important;
 }
 
@@ -74,13 +75,13 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .logo_style {
-    
+
     color: #5C258D;
     font-family: 'Lobster', cursive;
 }
 
 .hero-header-text {
-    
+
     padding-bottom: 1rem;
     padding-top: 1rem;
     font-family: 'Lobster', cursive;
@@ -90,26 +91,44 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .hero-text {
-    
-    padding-bottom: 5rem;
-    padding-top: 5rem;
+
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 
 .flat_btn_style{
-    
+
     border-radius: 0px;
-    
+
 }
 
 
 .pill_btn-style {
-    
+
     border-radius: 17px;
-    
+
+}
+
+#family {
+
+  margin-top: -10rem;
+  margin-bottom: auto;
+  height: inherit;
+}
+
+.patty_style_1 {
+
+  background-size: cover;
+  background-image: url(../img/patty_babies.jpg);
+  height: 50rem;
+  width: 100%;
 }
 
 
+.patty_text_style {
 
+  margin-top: 3rem;
+  font-family: 'Roboto Condensed', sans-serif;
 
-
+}
