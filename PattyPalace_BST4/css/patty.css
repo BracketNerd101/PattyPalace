@@ -1,0 +1,114 @@
+body {
+    
+    min-height: 2000px;
+}
+
+
+
+/*------------------------------------------------------Main Text/font from  google 
+
+font-family: 'Lobster', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+
+
+
+-----------------------------*/
+
+/*        special colors go here  ----------------
+
+
+
+
+
+--------------------------------------------    */
+
+
+
+
+/* gradients found here ----------------------------
+
+
+
+--------------------------------------------*/
+
+.nav_height_style {
+    
+   padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+
+
+.navbar-toggler {
+    
+    border: 0px;
+}
+
+
+.hero_style_bg {
+    
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: inherit;
+    width: 100%;
+  
+}
+
+.hero_mom_style {
+    
+    width: 200px;
+    height: 200px;
+    
+}
+
+.border-white {
+    
+    border-width: 0.3rem !important;
+}
+
+
+
+
+.logo_style {
+    
+    color: #5C258D;
+    font-family: 'Lobster', cursive;
+}
+
+.hero-header-text {
+    
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+.hero-text {
+    
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+
+.flat_btn_style{
+    
+    border-radius: 0px;
+    
+}
+
+
+.pill_btn-style {
+    
+    border-radius: 17px;
+    
+}
+
+
+
+
+
