@@ -105,6 +105,19 @@ font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Courgette', cursive;
 }
 
+.diagnol_style {
+    
+/*    background: #5C258D;   fallback for old browsers */*/
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    position: relative;
+/*    margin-bottom: 200px;*/
+    -webkit-transform: rotate(4deg) skew(4deg);
+     transform: rotate(4deg) skew(4deg); 
+    padding-top: 1px;
+    min-height: 90vh;
+    z-index: 500;
+}
+
 #family {
 
   margin-top: -10rem;
