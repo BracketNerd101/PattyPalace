@@ -44,6 +44,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
     border: 0px;
 }
+/* ------------------------------------------*/
 
 .hero_style_bg {
 
@@ -81,6 +82,8 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
     font-family: 'Lobster', cursive;
 }
 
+/* ------------------------------------------*/
+
 .hero-text {
 
     padding-bottom: 6rem;
@@ -111,6 +114,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
    font-size: 1.5rem;
 
 }
+/* ------------------------------------------*/
 
 .diagnol_style {
 
@@ -124,6 +128,8 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
     min-height: 90vh;
     z-index: 500;
 }
+
+/* ------------------------------------------*/
 
 #family {
 
@@ -149,6 +155,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
   margin-bottom: auto;
   height: inherit;
 }
+/* ------------------------------------------*/
 
 .patty_style_1 {
 
@@ -265,6 +272,8 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
   background: linear-gradient(to right bottom, #000000 90%, #ffffff 50%);
 }
 
+/* ------------------------------------------*/
+
 .world_padding_style {
 
 
@@ -296,5 +305,15 @@ height: inherit;
 
 .about_img {
 
-  
+  background-size: cover;
+  background-image: url(../img/mom-blue.jpg);
+  height: 25rem;
+  width: 100%;
+
+
+}
+
+.border-info {
+
+  border-width: 0.8rem !important ;
 }
