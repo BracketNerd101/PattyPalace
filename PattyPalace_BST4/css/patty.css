@@ -142,6 +142,13 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
   height: inherit;
 }
 
+#school {
+
+  margin-top: -8rem;
+  margin-bottom: auto;
+  height: inherit;
+}
+
 .patty_style_1 {
 
   background-size: cover;
@@ -210,8 +217,8 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 .travel_style_bg {
 
   margin-top: 8rem;
-  background: #B993D6;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: #B993D6;  /* fallback for old browsers *
+  background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 *
   background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 height: inherit;
@@ -220,5 +227,12 @@ height: inherit;
 .travel_content_spacing {
 
   margin-bottom: 9rem;
+
+}
+
+
+.school_style_font {
+
+  font-family: 'Roboto Condensed', sans-serif;
 
 }
