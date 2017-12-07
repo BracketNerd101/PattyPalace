@@ -128,7 +128,8 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 #family {
 
   margin-top: -10rem;
-  margin-bottom: auto;
+  margin-bottom: 6rem;
+  padding-bottom: 6rem;
   height: inherit;
   background: #5C258D;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
@@ -175,7 +176,6 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
   background-size: cover;
   background-image: url(../img/christmas_family.jpg);
-  height: 25rem;
   width: 100%;
 }
 
@@ -183,7 +183,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
   background-size: cover;
   background-image: url(../img/chaz_mom.jpg);
-  height: 25rem;
+  height: 35rem;
   width: 100%;
 }
 
@@ -191,7 +191,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
   background-size: cover;
   background-image: url(../img/patty_babies.jpg);
-  height: 25rem;
+  height: 35rem;
   width: 100%;
 }
 
@@ -199,7 +199,63 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
   background-size: cover;
   background-image: url(../img/chaz_auria.jpg);
-  height: 55rem;
+  height: 35rem;
+  width: 100%;
+}
+
+.patty_family_img4 {
+
+  background-size: cover;
+  background-image: url(../img/kenny.jpg);
+  height: 35rem;
+  width: 100%;
+}
+
+.patty_family_img5 {
+
+  background-size: cover;
+  background-image: url(../img/tara.jpg);
+  height: 35rem;
+  width: 100%;
+}
+
+.patty_family_img6 {
+
+  background-size: cover;
+  background-image: url(../img/baby_clouds.jpg);
+  height: 35rem;
+  width: 100%;
+}
+
+.patty_family_img7 {
+
+  background-size: cover;
+  background-image: url(../img/mom_nieces.jpg);
+  height: 35rem;
+  width: 100%;
+}
+
+.patty_family_img8 {
+
+  background-size: cover;
+  background-image: url(../img/val.jpg);
+  height: 30rem;
+  width: 100%;
+}
+
+.patty_family_img9 {
+
+  background-size: cover;
+  background-image: url(../img/Tjr.jpg);
+  height: 30rem;
+  width: 100%;
+}
+
+.patty_family_img10 {
+
+  background-size: cover;
+  background-image: url(../img/calvin.jpg);
+  height: 30rem;
   width: 100%;
 }
 
@@ -235,4 +291,9 @@ height: inherit;
 
   font-family: 'Roboto Condensed', sans-serif;
 
+}
+
+.about_img {
+
+  
 }
