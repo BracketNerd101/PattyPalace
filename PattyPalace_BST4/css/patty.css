@@ -28,7 +28,9 @@ font-family: 'Roboto Condensed', sans-serif;
 
 /* gradients found here ----------------------------
 
-
+background: #5C258D;  /* fallback for old browsers
+background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6
+background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
 
 --------------------------------------------*/
 
@@ -56,9 +58,9 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .hero_mom_style {
 
-    width: 200px;
-    height: 200px;
-   box-shadow: transparent 4px 4px 4px #d2d2d2;
+    width: 240px;
+    height: 240px;
+    box-shadow: transparent 4px 4px 4px #d2d2d2;
 }
 
 .border-white {
@@ -81,8 +83,8 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .hero-text {
 
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
 }
 
 .flat_btn_style{
@@ -105,14 +107,19 @@ font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Courgette', cursive;
 }
 
+.body_font_style {
+   font-size: 1.5rem;
+
+}
+
 .diagnol_style {
-    
-/*    background: #5C258D;   fallback for old browsers */*/
+
+    /*    background: #5C258D;   fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
     position: relative;
 /*    margin-bottom: 200px;*/
     -webkit-transform: rotate(4deg) skew(4deg);
-     transform: rotate(4deg) skew(4deg); 
+     transform: rotate(4deg) skew(4deg);
     padding-top: 1px;
     min-height: 90vh;
     z-index: 500;
@@ -123,6 +130,9 @@ font-family: 'Roboto Condensed', sans-serif;
   margin-top: -10rem;
   margin-bottom: auto;
   height: inherit;
+  background: #5C258D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #travel {
@@ -157,12 +167,58 @@ font-family: 'Roboto Condensed', sans-serif;
 .patty_travel_img {
 
   background-size: cover;
+  background-image: url(../img/christmas_family.jpg);
+  height: 25rem;
+  width: 100%;
+}
+
+.patty_family_img {
+
+  background-size: cover;
   background-image: url(../img/chaz_mom.jpg);
-  height: 42rem;
+  height: 25rem;
+  width: 100%;
+}
+
+.patty_family_img2 {
+
+  background-size: cover;
+  background-image: url(../img/patty_babies.jpg);
+  height: 25rem;
+  width: 100%;
+}
+
+.patty_family_img3 {
+
+  background-size: cover;
+  background-image: url(../img/chaz_auria.jpg);
+  height: 55rem;
   width: 100%;
 }
 
 .patty_travel {
 
   background: linear-gradient(to right bottom, #000000 90%, #ffffff 50%);
+}
+
+.world_padding_style {
+
+
+   margin-top: 6rem;
+   margin-bottom: 3rem;
+}
+.travel_style_bg {
+
+  margin-top: 8rem;
+  background: #B993D6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: inherit;
+
+}
+.travel_content_spacing {
+
+  margin-bottom: 9rem;
+
 }
