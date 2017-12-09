@@ -262,6 +262,14 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 .patty_family_img10 {
 
   background-size: cover;
+  background-image: url(../img/arthur1.jpg);
+  height: 30rem;
+  width: 100%;
+}
+
+.patty_family_img11 {
+
+  background-size: cover;
   background-image: url(../img/calvin.jpg);
   height: 30rem;
   width: 100%;
