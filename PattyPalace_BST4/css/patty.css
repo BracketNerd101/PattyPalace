@@ -135,7 +135,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
   margin-top: -10rem;
   margin-bottom: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 8rem;
   height: inherit;
   background: #5C258D;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
@@ -151,7 +151,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
 #school {
 
-  margin-top: -4rem;
+  margin-top: -8rem;
   margin-bottom: auto;
   height: inherit;
 }
