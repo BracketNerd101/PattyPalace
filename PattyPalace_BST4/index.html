@@ -25,8 +25,14 @@
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" href="css/patty.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.min.css">
 
+    <!-- <section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
+                      </section>
 
+                      <section class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10">
+                      </section> -->
 
   </head>
 
@@ -65,7 +71,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                   <img src="img/mom-blue.jpg" alt="..." class="hero_mom_style border border-white rounded-circle">
+                   <img src="img/mom-blue.jpg" alt="..." class="hero_mom_style border border-white rounded-circle wow fadeInDown" data-wow-duration="1.4s" data-wow-delay="0.8s">
                     <h1 class="text-light display-3 hero-header-text">Meet Patty
                     </h1>
                 </div> <!--  end of div-->
@@ -99,14 +105,14 @@
 
 
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 travel_content_spacing ">
+          <div class="col-sm-12 col-md-6 col-lg-4 travel_content_spacing">
             <h2 class="text-info hero-header-text">Traveled to Mexico <i class="fa fa-flag" aria-hidden="true"></i></h2>
             <p class="text-info">
               Patty has been to the multiple cities in mexico including Guanajuato!
             </p>
           </div>
 
-          <div class="col-sm-12 col-md-6 col-lg-4 travel_content_spacing ">
+          <div class="col-sm-12 col-md-6 col-lg-4 travel_content_spacing">
             <h2 class="text-info hero-header-text">Traveled the USA <i class="fa fa-flag" aria-hidden="true"></i></h2>
             <p class="text-info">
               She has been to the west coast and up and down the east coast. Her next stop might be Portland Oregon!
@@ -122,7 +128,7 @@
             <div class="col-lg-12 family_padding_style">
               <h2 class="text-white display-3 hero-header-text text-center"> Patty's Family</h2>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 patty_travel_img ">
+            <div class="col-sm-12 col-md-6 col-lg-6 patty_travel_img">
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6  patty_family_img">
 
@@ -180,25 +186,25 @@
              <div class="col-sm-12 col-md-12 col-lg-12 text-center world_padding_style">
                <h2 class="text-info hero-header-text display-4"> University Study <i class="fa fa-graduation-cap" aria-hidden="true"></i></h2>
              </div> <!-- end of div -->
-             <div class="col-lg-3">
+             <div class="col-sm-12 col-md-3 col-lg-3">
                <h5 class="text-info header_font_style">University of BridgePort</h5>
                <p class="text-info">
                  Earned a Bachelor Degree.
                </p>
              </div> <!-- end of div -->
-             <div class="col-lg-3">
+             <div class="col-sm-12 col-md-3 col-lg-3">
                <h5 class="text-info header_font_style">Fairfield University</h5>
                <p class="text-info">
                    She obtained a Masters Degree.
                </p>
              </div> <!-- end of div -->
-             <div class="col-lg-3">
+             <div class="col-sm-12 col-md-3 col-lg-3">
                <h5 class="text-info header_font_style">Norwalk Community College</h5>
                <p class="text-info">
                 Earned a Associate Degree
                </p>
              </div> <!-- end of div -->
-             <div class="col-lg-3">
+             <div class="col-sm-12 col-md-3 col-lg-3">
                <h5 class="text-info header_font_style">University of Florida </h5>
                <p class="text-info">
                 Earned a Specialist Degree in Education
@@ -232,10 +238,17 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white body_font_style">Copyright &copy; Website created by Arthur Charles Edwards 2017</p>
+        <p class="m-0 text-center text-white body_font_style">Copyright &copy; 2017 Website created by Arthur Charles Edwards</p>
       </div>
       <!-- /.container
     </footer> -->
+
+
+
+    <script src="js/wow.min.js"></script>
+             <script>
+             new WOW().init();
+             </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -246,6 +259,7 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
+
 
   </body>
 
