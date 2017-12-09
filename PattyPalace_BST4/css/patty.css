@@ -151,7 +151,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
 #school {
 
-  margin-top: -8rem;
+  margin-top: -4rem;
   margin-bottom: auto;
   height: inherit;
 }
@@ -274,6 +274,13 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
 /* ------------------------------------------*/
 
+.family_padding_style {
+
+
+   margin-top: 1rem;
+   margin-bottom: 3rem;
+}
+
 .world_padding_style {
 
 
@@ -286,8 +293,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
   /*background: #B993D6;  /* fallback for old browsers *
   background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 *
   background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-height: inherit;
+  height: inherit;
 
 }
 .travel_content_spacing {
