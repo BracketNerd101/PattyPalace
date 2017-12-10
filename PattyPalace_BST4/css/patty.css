@@ -18,13 +18,7 @@ font-family: 'Roboto Condensed', sans-serif;
 /*        special colors go here  ----------------
 
 
-
-
-
 --------------------------------------------    */
-
-
-
 
 /* gradients found here ----------------------------
 
@@ -79,7 +73,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
 .logo_style {
 
-    color: #5C258D;
+    /*color: #5C258D;*/
     font-family: 'Lobster', cursive;
 }
 
@@ -111,6 +105,12 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 .body_font_style {
 
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.body_font_style_hero {
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.9rem;
 }
 
 .header_font_style {
@@ -162,6 +162,7 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
   margin-top: -8rem;
   margin-bottom: auto;
   height: inherit;
+
 }
 /* ------------------------------------------*/
 
