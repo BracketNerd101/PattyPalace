@@ -164,6 +164,12 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
   height: inherit;
 
 }
+
+.school_background_pattern {
+
+  background-image: url(../img/white_texture.png);
+
+}
 /* ------------------------------------------*/
 
 .patty_style_1 {
@@ -300,10 +306,10 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
 .world_padding_style {
 
-
-   margin-top: 2rem;
-   margin-bottom: 3rem;
+   margin-top: -2rem;
+   margin-bottom: 1rem;
 }
+
 .travel_style_bg {
 
   margin-top: 8rem;
